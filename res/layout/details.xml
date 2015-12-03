@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/black"
+    >
+
+<LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="44pt"
+                  android:layout_margin="2pt" 
+                  >
+                  
+ <LinearLayout android:orientation="vertical"
+               android:layout_width="40pt"
+               android:layout_height="fill_parent"
+               android:layout_margin="2pt" >
+    
+    <ImageView android:id="@+id/AlbumArt"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+                 />
+    </LinearLayout>
+
+<LinearLayout android:orientation="vertical"
+              android:layout_width="0pt"
+              android:layout_height="fill_parent"
+              android:layout_weight="1" 
+              android:layout_margin="2pt" >  
+
+<!-- Album Title -->    
+    
+        <ScrollView android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                    android:layout_weight="1" >
+        
+    <TextView android:id="@+id/AlbumTitle" 
+              android:layout_width="fill_parent"
+              android:layout_height="25pt"
+              android:gravity="bottom"
+              android:textSize="20sp"
+              android:text="Title" />
+    </ScrollView>
+    
+<!-- Album Artist -->        
+        
+    <TextView android:id="@+id/Artist"
+              android:layout_width="fill_parent"
+              android:layout_height="8pt"
+              android:text="Artist" />
+</LinearLayout>
+ </LinearLayout>
+
+<!-- Mbid -->
+
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="30pt"
+              android:layout_margin="2pt" >
+    
+    <TextView android:id="@+id/txtMbid"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:text="mbid" />
+        
+        <TextView android:id="@+id/MbidDetails"
+                  android:layout_width="fill_parent"
+                  android:layout_height="10pt"
+                  android:layout_margin="8pt"
+                  android:textColor="#ffffff" />
+     
+</LinearLayout>
+
+<!-- Release Date -->
+
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="25pt"
+              android:layout_margin="2pt" >
+    
+    <TextView android:id="@+id/txtReleaseDate"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:text="Release Date" />
+
+    
+        <TextView android:id="@+id/ReleaseDateDetails"
+                  android:layout_width="fill_parent"
+                  android:layout_height="20pt"
+                  android:layout_margin="1pt"
+                  android:textColor="#ffffff" />
+ 
+</LinearLayout>
+
+<!-- ALbum URL -->
+
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="20pt"
+              android:layout_margin="2pt" >
+    
+    <TextView android:id="@+id/txtUrl"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:text="Album URL" />
+
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                    android:layout_weight="1" >
+        
+        <TextView android:id="@+id/UrlDetails"
+                  android:layout_width="fill_parent"
+                  android:layout_height="20pt"
+                  android:layout_margin="8pt"
+                  android:autoLink="web"
+                  android:textColorLink="#ffffff"
+                  />
+    </ScrollView>
+</LinearLayout>
+
+<!-- Listeners -->
+
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="20pt"
+              android:layout_margin="2pt" >
+    
+    <TextView android:id="@+id/txtListeners"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:text="Listeners" />
+
+    
+        <TextView android:id="@+id/ListenersDetails"
+                  android:layout_width="fill_parent"
+                  android:layout_height="20pt"
+                  android:layout_margin="8pt"
+                  android:textColor="#ffffff" />
+ 
+</LinearLayout>
+
+<!-- Playcount -->
+
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="15pt"
+              android:layout_margin="2pt" >
+    
+    <TextView android:id="@+id/txtPlaycount"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:text="Playcount" />
+
+    
+        <TextView android:id="@+id/PlaycountDetails"
+                  android:layout_width="fill_parent"
+                  android:layout_height="5pt"
+                  android:layout_margin="15sp"
+                  android:textColor="#ffffff" />
+ 
+</LinearLayout>
+</LinearLayout>
+
+
+    

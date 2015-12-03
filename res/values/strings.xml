@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Album Library</string>
+    <string name="app_label">My Album Library</string>
+    <string name="search_hint">Search music</string>
+    
+     <string name="itunesapp_name">Itunes Movie Library</string>
+    <string name="itunessearch_hint">Search Movie</string>
+      <string name="itunes_label">My Album Library</string>
+      
+       <string name="remove_alert_title">Remove Music</string>
+         <string name="remove_alert_positive">Yes</string>
+           <string name="remove_alert_negative">No</string>
+</resources>
